@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/farmer-clone-new/static/css/main.b618b7e6.css",
-    "main.js": "/farmer-clone-new/static/js/main.bdda38fd.js",
+    "main.css": "/farmer-clone-new/static/css/main.2151f782.css",
+    "main.js": "/farmer-clone-new/static/js/main.d6604e74.js",
     "static/media/sewer.jpg": "/farmer-clone-new/static/media/sewer.69c343ca9b2529121648.jpg",
     "static/media/hydro.jpg": "/farmer-clone-new/static/media/hydro.ac8a9c76b95fe2e41ee6.jpg",
     "static/media/Quality Workmanship.jpg": "/farmer-clone-new/static/media/Quality Workmanship.a0318edcf6b081cc98f2.jpg",
@@ -9,19 +9,24 @@
     "static/media/emergency.jpg": "/farmer-clone-new/static/media/emergency.e103812f9a5062656a60.jpg",
     "static/media/Reliability.jpg": "/farmer-clone-new/static/media/Reliability.bedf0fe14393119c8cff.jpg",
     "static/media/waterh.jpg": "/farmer-clone-new/static/media/waterh.5d1a0241a7c28123c21f.jpg",
-    "static/media/Contact Page.jpg": "/farmer-clone-new/static/media/Contact Page.0d563440a261368a1f76.jpg",
+    "static/media/plumber10.jpg": "/farmer-clone-new/static/media/plumber10.45e5be958c1593c251c5.jpg",
+    "static/media/plumber6.jpg": "/farmer-clone-new/static/media/plumber6.797641d11dda720832b0.jpg",
+    "static/media/plumber3.jpg": "/farmer-clone-new/static/media/plumber3.e44c77a2e159f825d0ac.jpg",
+    "static/media/plumber5.jpg": "/farmer-clone-new/static/media/plumber5.60c5ff1794e602ea6c87.jpg",
     "static/media/about2.jpg": "/farmer-clone-new/static/media/about2.93ac81d8e04ad335d8ba.jpg",
+    "static/media/plumber4.jpg": "/farmer-clone-new/static/media/plumber4.8cecc2b3d2a28e881892.jpg",
+    "static/media/plumber8.jpg": "/farmer-clone-new/static/media/plumber8.f78d8823b857af126fd5.jpg",
     "static/media/Robert Mitchell.jpg": "/farmer-clone-new/static/media/Robert Mitchell.5e3556ae001d300cf489.jpg",
     "static/media/mike.jpg": "/farmer-clone-new/static/media/mike.c0c5ad83103499dd01b2.jpg",
     "static/media/lisa.jpg": "/farmer-clone-new/static/media/lisa.a7f3708b6cc57430cbda.jpg",
     "static/media/step1.jpg": "/farmer-clone-new/static/media/step1.017a2c9a11ec6321eeb5.jpg",
     "static/media/headoffice.jpg": "/farmer-clone-new/static/media/headoffice.2a683a15712d0b8af0a1.jpg",
     "index.html": "/farmer-clone-new/index.html",
-    "main.b618b7e6.css.map": "/farmer-clone-new/static/css/main.b618b7e6.css.map",
-    "main.bdda38fd.js.map": "/farmer-clone-new/static/js/main.bdda38fd.js.map"
+    "main.2151f782.css.map": "/farmer-clone-new/static/css/main.2151f782.css.map",
+    "main.d6604e74.js.map": "/farmer-clone-new/static/js/main.d6604e74.js.map"
   },
   "entrypoints": [
-    "static/css/main.b618b7e6.css",
-    "static/js/main.bdda38fd.js"
+    "static/css/main.2151f782.css",
+    "static/js/main.d6604e74.js"
   ]
 }
