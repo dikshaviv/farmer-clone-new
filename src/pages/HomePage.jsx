@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 
 // Images (use your existing ones)
-import heroImage from "../assets/hero.jpg";
+import hero from "../assets/hero.jpg";
 import sewerImg from "../assets/sewer.jpg";
 import hydroImg from "../assets/hydro.jpg";
 import emergencyImg from "../assets/emergency.jpg";
@@ -76,19 +76,31 @@ const HomePage = () => {
 
   return (
     <div className="space-y-20">
+{/* HERO SECTION */}
+<section className="relative w-full h-[500px] md:h-[700px]">
+  <img src={hero} alt="Hero" className="w-full h-full object-cover object-center" />
+  
+  <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center text-center text-white px-6">
+    <motion.h1
+      initial={{ y: -50, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 1 }}
+      className="text-4xl md:text-6xl font-bold"
+    >
+      Swift<span className="text-red-500">Rooter</span> — Fast & Reliable Plumbing
+    </motion.h1>
 
-      {/* HERO */}
-      <section className="relative w-full h-[500px] md:h-[700px]">
-        <img src={heroImage} alt="Hero" className="w-full h-full object-cover object-center" />
-        <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center text-center text-white px-6">
-          <motion.h1 initial={{ y: -50, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 1 }} className="text-4xl md:text-6xl font-bold">
-            Swift<span className="text-red-500">Rooter</span> — Fast & Reliable Plumbing
-          </motion.h1>
-          <motion.p initial={{ y: 30, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 1, delay: 0.5 }} className="text-lg md:text-2xl mt-4 max-w-3xl mx-auto">
-            Your trusted partner for professional plumbing solutions — from drain clearing and repairs to full installations. Available 24/7.
-          </motion.p>
-        </div>
-      </section>
+    <motion.p
+      initial={{ y: 30, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 1, delay: 0.5 }}
+      className="text-lg md:text-2xl mt-4 max-w-3xl mx-auto"
+    >
+      Your trusted partner for professional plumbing solutions — from drain clearing and repairs to full installations. Available 24/7.
+    </motion.p>
+  </div>
+</section>
+
 
       {/* SERVICES Section with Toggle */}
 <section className="max-w-6xl mx-auto px-4">
