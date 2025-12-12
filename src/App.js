@@ -9,8 +9,6 @@ import ServicesPage from "./pages/ServicesPage";
 import ServiceDetail from "./pages/ServiceDetail";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
-
-// ✅ NEW IMPORT ADDED
 import Template from "./pages/Template";
 
 function App() {
@@ -22,11 +20,10 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/services" element={<ServicesPage />} />
-          <Route path="/service/:id" element={<ServiceDetail />} />
+          {/* ✅ FIXED ROUTE: plural 'services/:id' */}
+          <Route path="/services/:id" element={<ServiceDetail />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
-
-          {/* ✅ NEW ROUTE ADDED FOR GET TEMPLATE PAGE */}
           <Route path="/template" element={<Template />} />
         </Routes>
 
