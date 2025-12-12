@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/farmer-clone-new/static/css/main.2151f782.css",
-    "main.js": "/farmer-clone-new/static/js/main.d6604e74.js",
+    "main.js": "/farmer-clone-new/static/js/main.7fc794fd.js",
     "static/media/sewer.jpg": "/farmer-clone-new/static/media/sewer.69c343ca9b2529121648.jpg",
     "static/media/hydro.jpg": "/farmer-clone-new/static/media/hydro.ac8a9c76b95fe2e41ee6.jpg",
     "static/media/Quality Workmanship.jpg": "/farmer-clone-new/static/media/Quality Workmanship.a0318edcf6b081cc98f2.jpg",
@@ -23,10 +23,10 @@
     "static/media/headoffice.jpg": "/farmer-clone-new/static/media/headoffice.2a683a15712d0b8af0a1.jpg",
     "index.html": "/farmer-clone-new/index.html",
     "main.2151f782.css.map": "/farmer-clone-new/static/css/main.2151f782.css.map",
-    "main.d6604e74.js.map": "/farmer-clone-new/static/js/main.d6604e74.js.map"
+    "main.7fc794fd.js.map": "/farmer-clone-new/static/js/main.7fc794fd.js.map"
   },
   "entrypoints": [
     "static/css/main.2151f782.css",
-    "static/js/main.d6604e74.js"
+    "static/js/main.7fc794fd.js"
   ]
 }
